@@ -5,12 +5,12 @@ import InfoRoundedIcon from '@mui/icons-material/InfoRounded';
 import InfoTwoToneIcon from '@mui/icons-material/InfoTwoTone';
 
 export const sidebarLinks = [
-  // {
-  //   id: 1,
-  //   title: 'Home',
-  //   link: '/',
-  //   icon: <HomeRoundedIcon />,
-  // },
+  {
+    id: 1,
+    title: 'Home',
+    link: '/',
+    icon: <HomeRoundedIcon />,
+  },
   {
     id: 2,
     title: 'Dikshyarti Information',
