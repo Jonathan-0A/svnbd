@@ -9,7 +9,8 @@ export default defineConfig({
   },
   server: {
     mimeTypes: {
-      js: 'application/javascript',
+      'js': 'application/javascript',
+      'jsx': 'application/javascript',
     },
   },
 })
