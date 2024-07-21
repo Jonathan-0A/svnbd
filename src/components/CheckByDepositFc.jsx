@@ -8,7 +8,7 @@ import NoData from './NoData'; // Ensure correct import
 import '../App.css';
 
 export default function CheckByDepositFc() {
-  const [searchTerm, setSearchTerm] = useState('005384456400');
+  const [searchTerm, setSearchTerm] = useState('');
   const [data, setData] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
 
