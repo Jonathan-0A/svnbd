@@ -8,6 +8,9 @@ export default defineConfig({
     chunkSizeWarningLimit: 1000, // Adjust the limit as needed (default is 500 KB)
   },
   server: {
+    port: process.env.PORT || 5005,
+    strictPort: true,
+    host: '0.0.0.0',
     mimeTypes: {
       'js': 'application/javascript',
       'jsx': 'application/javascript',
