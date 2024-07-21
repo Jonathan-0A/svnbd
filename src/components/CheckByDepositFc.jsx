@@ -79,7 +79,7 @@ export default function CheckByDepositFc() {
           value={searchTerm}
           onChange={handleChange}
           variant="outlined"
-          placeholder="Please enter name here to check..."
+          placeholder="Please enter 12 digits familt code here to check..."
           sx={{
             marginBottom: 3,
             '& .MuiOutlinedInput-root': {
